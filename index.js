@@ -19,7 +19,7 @@ const corsOptions = {
 //   }
 
 app.use(cors());
-app.options('*', cors());
+// app.options('*', cors());
 app.use(express.static('public'));
 
 const connectDB = require('./config/db');

@@ -7,10 +7,6 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "engines": {
-    "node": "14.17.4",
-    "npm": "7.20.5"
-  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",

@@ -1,11 +1,12 @@
 {
   "name": "file-sharing",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon server",
-    "serve": "node server"
+    "serve": "node server",
+    "start": "node server"
   },
   "dependencies": {
     "cors": "^2.8.5",
